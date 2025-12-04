@@ -1,0 +1,15 @@
+nav,ul,li{
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav,ul,a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav,ul,li{
+    background-color: blueviolet;
+    width: max-content;
+}
