@@ -1,15 +1,20 @@
-nav,ul,li{
-    display: inline;
-    margin-right: 20px;
-    
+nav, ul{
+    display: flex;
 }
 
-nav,ul,a{
+nav li{
+    list-style: none;
+    margin-right: 22px;
+    padding: 6px;
+}
+nav a{
     text-decoration: none;
-    color: antiquewhite;
+    color: wheat;
 }
 
-nav,ul,li{
-    background-color: blueviolet;
-    width: max-content;
+nav li:hover{
+    background-color: rgb(0, 195, 195);
+}
+nav{
+    text-align: center;
 }
